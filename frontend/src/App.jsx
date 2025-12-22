@@ -4,8 +4,8 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Home from "./Page/Home"
 import About from "./Page/About"
-import Contact from "./Page/contact"
-import Service from "./Page/service"
+import Contact from "./Page/Contact"
+import Service from "./Page/Service"
 const App = () => {
   return (
     <>
@@ -15,8 +15,8 @@ const App = () => {
     <Routes>
       <Route path="/"element={<Home/>}/>
       <Route path="/about"element={<About/>}/>
-      <Route path="/contact"element={<Contact/>}
-      <Route path="/service"element={<Service/>}
+      <Route path="/contact"element={<Contact/>}/>
+      <Route path="/service"element={<Service/>}/>
 
        
       
